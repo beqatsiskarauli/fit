@@ -1,0 +1,52 @@
+body{
+	background-image: url(https://cdn.hipwallpaper.com/i/0/30/ib3PSN.jpg);
+}
+.logo{
+	width: 100px;
+}
+.nav-link{
+	color: white;
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 25PX;
+}
+.dropdown-item{
+	text-transform: uppercase;
+	color: #198754;
+}
+.dropdown-item:hover{
+	color: #198754;
+}
+.nav-link:hover, .nav-link:focus {
+  text-decoration: none;
+  color: #198754;
+  font-size: 30px;
+}
+.h1{
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 100px;
+	color: white;
+}
+.h1:hover{
+	color: #198754;
+}
+.p:hover{
+	color: #198754;
+}
+.color{
+	color: #198754;
+}
+.p{
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Viaoda Libre', cursive;
+}
+.mt{
+	margin-top: 200px;
+}
+.book-now{
+	margin-left: 60%;
+}
