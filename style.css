@@ -164,4 +164,9 @@ a{
 	text-transform: uppercase;
 	margin-top: 55px;
 }
+.col-p{
+	text-align: center;
+	padding-top: 80px;
+	color: white;
+}
 
