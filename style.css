@@ -2,6 +2,10 @@ body{
 	background-image: url(https://cdn.hipwallpaper.com/i/0/30/ib3PSN.jpg);
 	background-attachment: fixed;
 }
+.bg{
+	background-color: lightgreen;
+	opacity: 0.9;
+}
 .logo{
 	width: 100px;
 }
@@ -33,14 +37,18 @@ body{
 .h1:hover{
 	color: lightgreen;
 }
-.p:hover{
-	color: lightgreen;
-}
 .p{
 	color: white;
 	text-transform: uppercase;
 	font-size: 30px;
 	font-family: 'Viaoda Libre', cursive;
+}
+.p:hover{
+	color: lightgreen;
+}
+.h3{
+	font-size: 20px;
+	color: yellow;
 }
 .mt{
 	margin-top: 200px;
@@ -57,10 +65,7 @@ body{
 .main-wraper{
 	display: flex;
 }
-.down{
-	margin-top: 100px;
-}
-.box2{
+.professional{
 	width: 50%;
 	height: 500px;
 	background: url(https://media.istockphoto.com/photos/fitness-or-bodybuilding-background-dumbbells-on-gym-floor-top-view-picture-id1134872858?k=6&m=1134872858&s=170667a&w=0&h=cG8IpJIxYHFUr1GYsxuGekp_HBPXwEnYIZd3gZZEoj0=);
@@ -69,7 +74,7 @@ body{
 	background-position: center;
 	opacity: 0.8;
 }
-.box1{
+.begginer{
 	width: 50%;
 	height: 500px;
 	background: url(https://i.pinimg.com/originals/cd/a2/08/cda2081dfd2b1af5c0444a032294965c.png);
@@ -78,10 +83,10 @@ body{
 	background-position: center;
 	opacity: 0.6;
 }
-.box1:hover{
+.begginer:hover{
 	font-size: 40px;
 }
-.box2:hover{
+.professional:hover{
 	font-size: 40px;
 }
 .wraper-p{
@@ -93,9 +98,6 @@ body{
 .size{
 	width: 350px;
 }
-.text{
-	text-align: center;
-}
 .paragraph{
 	font-size: 18px;
 	color: white;
@@ -103,18 +105,6 @@ body{
 .justify-content{
 	justify-content: center;
 }
-.margin{
-	margin-right: 15px;
-}
-.margin-long{
-	margin-right: 50px;
-}
-.bottom{
-	margin-top: 300px;
-}
-
-
-
 .section3{
 	background: url(https://images.wallpaperscraft.com/image/surface_background_plain_black_50697_1920x1080.jpg);
 	background-size: cover;
@@ -124,34 +114,27 @@ body{
 	opacity: 0.9;
 	height: 600px;
 }
-.sect-box1{
-	width: 350px;
-	height: 320px;
-	background-color: lightgreen;
-	margin-right: 80px;
-	margin-top: 50px;
-	z-index: 
-}
 .learn-more{
 	text-transform: uppercase;
 	font-size: 18px;
-	color: grey;
-}
-
-.section4{
-	background-color: lightgrey;
-	height: 500px;
+	color: yellow;
+	margin-top: 100px;
 }
 .learn-more:hover{
 	font-size: 15px;
 	color: red;
 }
-a:hover {
-  color: grey;
-  text-decoration: underline-none;
-}
-a {
+.box{
+ 	margin-right: 15px;
+ 	text-align: center;
+ 	color: white;
+ }
+a{
   color: white;
   text-decoration: none;
-  background-color: transparent;
-}
+ }
+ a:hover{
+ 	color: grey;
+ 	font-size: 15px;
+ }
+ 
