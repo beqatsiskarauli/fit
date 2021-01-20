@@ -1,5 +1,6 @@
 body{
 	background-image: url(https://cdn.hipwallpaper.com/i/0/30/ib3PSN.jpg);
+	background-attachment: fixed;
 }
 .logo{
 	width: 100px;
@@ -20,7 +21,7 @@ body{
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
-  color: #198754;
+  color: lightgreen;
   font-size: 30px;
 }
 .h1{
@@ -30,13 +31,10 @@ body{
 	color: white;
 }
 .h1:hover{
-	color: #198754;
+	color: lightgreen;
 }
 .p:hover{
-	color: #198754;
-}
-.color{
-	color: #198754;
+	color: lightgreen;
 }
 .p{
 	color: white;
@@ -49,4 +47,111 @@ body{
 }
 .book-now{
 	margin-left: 60%;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  background-color: grey;
+}
+.main-wraper{
+	display: flex;
+}
+.down{
+	margin-top: 100px;
+}
+.box2{
+	width: 50%;
+	height: 500px;
+	background: url(https://media.istockphoto.com/photos/fitness-or-bodybuilding-background-dumbbells-on-gym-floor-top-view-picture-id1134872858?k=6&m=1134872858&s=170667a&w=0&h=cG8IpJIxYHFUr1GYsxuGekp_HBPXwEnYIZd3gZZEoj0=);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.8;
+}
+.box1{
+	width: 50%;
+	height: 500px;
+	background: url(https://i.pinimg.com/originals/cd/a2/08/cda2081dfd2b1af5c0444a032294965c.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.6;
+}
+.box1:hover{
+	font-size: 40px;
+}
+.box2:hover{
+	font-size: 40px;
+}
+.wraper-p{
+	text-align: center;
+	margin-top: 440px;
+	text-transform: uppercase;
+	color: lightgreen;
+}
+.size{
+	width: 350px;
+}
+.text{
+	text-align: center;
+}
+.paragraph{
+	font-size: 18px;
+	color: white;
+}
+.justify-content{
+	justify-content: center;
+}
+.margin{
+	margin-right: 15px;
+}
+.margin-long{
+	margin-right: 50px;
+}
+.bottom{
+	margin-top: 300px;
+}
+
+
+
+.section3{
+	background: url(https://images.wallpaperscraft.com/image/surface_background_plain_black_50697_1920x1080.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	opacity: 0.9;
+	height: 600px;
+}
+.sect-box1{
+	width: 350px;
+	height: 320px;
+	background-color: lightgreen;
+	margin-right: 80px;
+	margin-top: 50px;
+	z-index: 
+}
+.learn-more{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: grey;
+}
+
+.section4{
+	background-color: lightgrey;
+	height: 500px;
+}
+.learn-more:hover{
+	font-size: 15px;
+	color: red;
+}
+a:hover {
+  color: grey;
+  text-decoration: underline-none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
 }
