@@ -27,6 +27,13 @@
 	background-position: center;
 	background-attachment: fixed;
 }
+.background{
+	background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/running.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
 .p{
 	color: lightgreen;
 	text-transform: uppercase;
@@ -102,8 +109,28 @@
 }
 .col-4{
 	border-radius: 50%;
+	background-color: lightgreen;
 }
-
+.dark-bg{
+	background-color: black;
+}
+.h3{
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 35px;
+	color: yellow;
+}
+.h3:hover{
+	font-size: 33px;
+}
+.learn-more{
+	text-transform: uppercase;
+	margin-top: 50px;
+	color: yellow;
+}
+.learn-more:hover{
+	color: black;
+}
 
 
 
@@ -116,19 +143,12 @@
 }
 .paragraph{
 	font-size: 18px;
-	color: black;
+	color: #fff;
 }
 .justify-content{
 	justify-content: center;
 }
-.learn-more{
-	text-transform: uppercase;
-	margin-top: 100px;
-}
-.learn-more:hover{
-	font-size: 15px;
-	color: lightgreen;
-}
+
 .box{
  	text-align: center;
  	color: white;
