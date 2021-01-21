@@ -1,16 +1,9 @@
-body{
-	background-image: url(https://cdn.hipwallpaper.com/i/0/30/ib3PSN.jpg);
-	background-attachment: fixed;
-}
-.bg{
-	background-color: lightgreen;
-	opacity: 0.9;
-}
+
 .logo{
 	width: 100px;
 }
 .nav-link{
-	color: white;
+	color: lightgreen;
 	margin-right: 10px;
 	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
@@ -32,7 +25,7 @@ body{
 	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 80px;
-	color: white;
+	color: lightgreen;
 }
 .p{
 	color: lightgreen;
@@ -99,20 +92,10 @@ body{
 }
 .paragraph{
 	font-size: 18px;
-	color: white;
-	padding: 12px;
+	color: black;
 }
 .justify-content{
 	justify-content: center;
-}
-.section3{
-	background: url(https://images.wallpaperscraft.com/image/surface_background_plain_black_50697_1920x1080.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	opacity: 0.9;
-	height: 600px;
 }
 .learn-more{
 	font-size: 25px;
@@ -131,6 +114,7 @@ body{
  .icon{
  	margin-right: 40px;
  	margin-bottom: 35px;
+ 	background-color: lightgreen;
  }
 a{
   color: white;
@@ -140,15 +124,7 @@ a{
  	color: grey;
  	font-size: 15px;
  }
-.pading{
-	padding-top: 100px;
-	background: url(https://scx2.b-cdn.net/gfx/news/hires/2019/running.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	height: 800px;
-}
+
 .align-center{
 	text-align: center;
 	line-height: 20px;
@@ -157,16 +133,16 @@ a{
 	height: 180px;
 	border-radius: 55px;
 }
-.hh{
-	text-align: center;
-	color: white;
-	font-size: 25px;
-	text-transform: uppercase;
-	margin-top: 55px;
-}
 .col-p{
 	text-align: center;
 	padding-top: 80px;
-	color: white;
+	color: lightgreen;
 }
 
+.back{
+	background: url(https://images.wallpaperscraft.com/image/surface_background_plain_black_50697_1920x1080.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+}
