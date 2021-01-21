@@ -130,16 +130,18 @@
 .learn-more:hover{
 	margin-top: 40px;
 }
-
-
-
-
-
-
-
 .size{
 	width: 350px;
+	margin-right: 400px;
 }
+
+
+
+
+
+
+
+
 .paragraph{
 	font-size: 18px;
 	color: #fff;
@@ -148,11 +150,7 @@
 	justify-content: center;
 }
 
-.box{
- 	text-align: center;
- 	color: white;
- 	border-radius: 55px;
- }
+
 a{
   color: white;
   text-decoration: none;
@@ -164,10 +162,6 @@ a{
 .align-center{
 	text-align: center;
 	line-height: 20px;
-}
-.col-6{
-	height: 180px;
-	border-radius: 55px;
 }
 .col-p{
 	text-align: center;
