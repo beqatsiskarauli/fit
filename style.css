@@ -49,11 +49,11 @@
 .professional{
 	width: 50%;
 	height: 500px;
-	background: url(https://www.pullupmate.co.uk/wp/blog/wp-content/uploads/2018/11/beginner-calisthenics-workout.jpg);
+	background: url(https://c4.wallpaperflare.com/wallpaper/938/467/793/men-fitness-pushups-wallpaper-preview.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
-	border-radius: 55px;
+	border-radius: 40%;
 	opacity: 0.9;
 }
 .begginer{
@@ -62,9 +62,9 @@
 	background: url(https://skinnyms.com/wp-content/uploads/2015/11/Top-3-Essential-Beginner-Workouts.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center;
 	opacity: 0.9;
-	border-radius: 55px;
+	border-radius: 40%;
 }
 .begginer:hover{
 	font-size: 40px;
@@ -84,24 +84,33 @@
 	background-color: lightgreen;
 	border-radius: 25%;
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-.wraper-p{
+ .wraper-p{
 	text-align: center;
-	margin-top: 440px;
+	margin-top: 80px;
 	text-transform: uppercase;
+	font-size: 30px;
 	color: lightgreen;
+	font-family: 'Viaoda Libre', cursive;
 }
+.wraper-p:hover{
+	font-size: 50px;
+	color: 	#C0392B;
+}
+.coach-pad{
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .size{
 	width: 350px;
 }
@@ -131,7 +140,6 @@ a{
   text-decoration: none;
  }
  a:hover{
- 	color: grey;
  	font-size: 15px;
  }
 
