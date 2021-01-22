@@ -58,7 +58,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
-	opacity: 0.9;
+	
 }
 .begginer{
 	width: 50%;
@@ -67,7 +67,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	opacity: 0.9;
+	
 }
 .begginer:hover{
 	font-size: 40px;
@@ -84,7 +84,7 @@
 }
 .icon{
 	margin-right: 25px;
-	border-radius: 25%;
+	background-color: lightgreen;
 }
 .navbar-toggler{
 	background-color: lightgreen;
@@ -97,15 +97,11 @@
 	background-color: lightgreen;
 }
 .wraper-p:hover{
-	font-size: 30px;
-	color: lightgreen;
+	font-size: 20px;
 }
 .coach-pad{
 	padding-bottom: 25px;
 	padding-top: 25px;	
-}
-.col-4{
-	border-radius: 50%;
 }
 .h3{
 	text-transform: uppercase;
@@ -140,6 +136,24 @@
 .justify-content{
 	justify-content: center;
 }
+.pad{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.half{
+	width: 50%;
+}
+.success-stories{
+	padding-top: 80px;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+.mb{
+	margin-bottom: 100px;
+}
 
 
 
@@ -173,8 +187,3 @@ a{
 	width: 90%;
 }
 
-
-.pad{
-	padding-bottom: 15px;
-	padding-top: 15px;
-}
