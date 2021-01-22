@@ -171,26 +171,28 @@
  	background-repeat: no-repeat;
  	background-size: cover;
  }
- a{
+.pading{
+	padding-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
   color: white;
   text-decoration: none;
  }
  a:hover{
  	font-size: 15px;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
