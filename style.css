@@ -154,21 +154,24 @@
 .mb{
 	margin-bottom: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a{
+.footer-p{
+	font-size: 25px;
+	font-family: 'Viaoda Libre', cursive;
+}
+.footer-box{
+	padding-left: 40%;
+}
+.footer-h1{
+ 	font-family: 'Abril Fatface', cursive;
+ }
+ .my-bg{
+ 	background-image: url(https://www.trade-schools.net/graphics/become-a-personal-trainer-fb.png);
+ 	background-attachment: fixed;
+ 	background-position: left;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+ a{
   color: white;
   text-decoration: none;
  }
@@ -176,14 +179,18 @@ a{
  	font-size: 15px;
  }
 
-.col-p{
-	text-align: center;
-	padding-top: 80px;
-	color: lightgreen;
-}
-.fix{
-	position: fixed;
-	top: 0;
-	width: 90%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
