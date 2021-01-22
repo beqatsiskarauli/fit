@@ -2,6 +2,7 @@
 	width: 100px;
 	background-color: lightgreen;
 	margin-top: 30px;
+	border-radius: 15%;
 }  
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -40,19 +41,13 @@
 	font-size: 30px;
 	font-family: 'Viaoda Libre', cursive;
 }
-.p:hover{
-	color: lightgreen;
-}
-.margin-top{
-	margin-top: 200px;
-}
 .text-align{
 	text-align: center;
 }
 .book-now{
-	margin-left: 60%;
+	margin-left: 50%;
+	text-transform: uppercase;
 }
-
 .main-wraper{
 	display: flex;
 }
@@ -63,7 +58,6 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
-	border-radius: 40%;
 	opacity: 0.9;
 }
 .begginer{
@@ -74,7 +68,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	opacity: 0.9;
-	border-radius: 40%;
 }
 .begginer:hover{
 	font-size: 40px;
@@ -91,64 +84,74 @@
 }
 .icon{
 	margin-right: 25px;
-	background-color: lightgreen;
 	border-radius: 25%;
 }
+.navbar-toggler{
+	background-color: lightgreen;
+	margin-right: 10px;
+}
  .wraper-p{
-	text-align: center;
-	margin-top: 80px;
 	text-transform: uppercase;
-	font-size: 30px;
-	color: lightgreen;
-	font-family: 'Viaoda Libre', cursive;
+	font-family: 'Abril Fatface', cursive;
+	margin-top: 5%;
+	background-color: lightgreen;
 }
 .wraper-p:hover{
-	font-size: 50px;
-	color: 	#C0392B;
+	font-size: 30px;
+	color: lightgreen;
 }
 .coach-pad{
 	padding-bottom: 25px;
-	padding-top: 25px;
+	padding-top: 25px;	
 }
 .col-4{
 	border-radius: 50%;
-}
-.dark-bg{
-	background-color: black;
 }
 .h3{
 	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 25px;
-	color: lightgreen;
+}
+.h3:hover{
+	font-size: 20px;
 }
 .learn-more{
 	text-transform: uppercase;
 	margin-top: 50px;
-	color: lightgreen;
 }
 .learn-more:hover{
 	margin-top: 40px;
+	color: lightgreen;
 }
 .size{
 	width: 350px;
-	margin-right: 400px;
 }
-
-
-
-
-
-
-
-
-.paragraph{
-	font-size: 18px;
-	color: #fff;
+.season{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 48%
+}
+.btn{
+	border: none;
+}
+.radius{
+	border-radius: 20%;
 }
 .justify-content{
 	justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 a{
@@ -159,12 +162,19 @@ a{
  	font-size: 15px;
  }
 
-.align-center{
-	text-align: center;
-	line-height: 20px;
-}
 .col-p{
 	text-align: center;
 	padding-top: 80px;
 	color: lightgreen;
+}
+.fix{
+	position: fixed;
+	top: 0;
+	width: 90%;
+}
+
+
+.pad{
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
