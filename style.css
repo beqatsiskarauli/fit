@@ -166,10 +166,9 @@
  }
  .my-bg{
  	background-image: url(https://www.trade-schools.net/graphics/become-a-personal-trainer-fb.png);
- 	background-attachment: fixed;
- 	background-position: left;
- 	background-repeat: no-repeat;
  	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
  }
 .pading{
 	padding-left: 40%;
