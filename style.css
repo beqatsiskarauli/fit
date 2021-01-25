@@ -1,7 +1,6 @@
 .logo{
 	width: 100px;
 	background-color: lightgreen;
-	margin-top: 30px;
 	border-radius: 15%;
 }  
 .navbar-light .navbar-nav .nav-link {
@@ -41,24 +40,27 @@
 	font-size: 30px;
 	font-family: 'Viaoda Libre', cursive;
 }
-.text-align{
-	text-align: center;
-}
-.book-now{
-	margin-left: 50%;
+.h1{
+	padding-top: 200px;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 80px;
+	color: lightgreen;
 	text-transform: uppercase;
 }
-.main-wraper{
+.wraper-p{
 	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-left: 25px;
 }
 .professional{
 	width: 50%;
 	height: 500px;
-	background: url(https://c4.wallpaperflare.com/wallpaper/938/467/793/men-fitness-pushups-wallpaper-preview.jpg);
+	background: url(https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Zml0bmVzc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
-	
+	opacity: 0.9;
 }
 .begginer{
 	width: 50%;
@@ -67,7 +69,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	
+	opacity: 0.9;
 }
 .begginer:hover{
 	font-size: 40px;
@@ -75,81 +77,52 @@
 .professional:hover{
 	font-size: 40px;
 }
-.pad-top{
-	padding-top: 200px;
+.begginer-p{
+	display: flex;
+	justify-content: center;
+	background-color: lightgreen;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
 }
-.social-icon{
-	padding-bottom: 50px;
-	padding-top: 200px;
+.book-now{
+	background-color: lightgreen;
 }
 .icon{
 	margin-right: 25px;
 	background-color: lightgreen;
+	border-radius: 25%;
+}
+.social{
+	display: flex;
+	justify-content: center;
+	padding-top: 250px;
+	padding-bottom: 100px;
+}
+.radius{
+	border-radius: 25%;
 }
 .navbar-toggler{
 	background-color: lightgreen;
 	margin-right: 10px;
 }
- .wraper-p{
-	text-transform: uppercase;
-	font-family: 'Abril Fatface', cursive;
-	margin-top: 5%;
-	background-color: lightgreen;
-}
-.wraper-p:hover{
-	font-size: 20px;
-}
-.coach-pad{
-	padding-bottom: 25px;
-	padding-top: 25px;	
-}
-.h3{
-	text-transform: uppercase;
-	font-family: 'Abril Fatface', cursive;
-	font-size: 25px;
-}
-.h3:hover{
-	font-size: 20px;
-}
-.learn-more{
-	text-transform: uppercase;
-	margin-top: 50px;
-}
-.learn-more:hover{
-	margin-top: 40px;
-	color: lightgreen;
-}
-.size{
-	width: 350px;
-}
-.season{
-	margin-top: 20px;
-	margin-bottom: 30px;
-	margin-left: 48%
-}
 .btn{
 	border: none;
-}
-.radius{
-	border-radius: 20%;
-}
-.justify-content{
-	justify-content: center;
-}
-.pad{
-	padding-bottom: 15px;
-	padding-top: 15px;
 }
 .uppercase{
 	text-transform: uppercase;
 }
-.half{
-	width: 50%;
-}
-.success-stories{
-	padding-top: 80px;
-	margin-bottom: 50px;
+.title{
 	font-size: 50px;
+	font-family: 'Abril Fatface', cursive;
+	text-transform: uppercase;
+}
+
+
+
+
+.success-stories{
+	
 }
 .mb{
 	margin-bottom: 100px;
@@ -157,9 +130,6 @@
 .footer-p{
 	font-size: 25px;
 	font-family: 'Viaoda Libre', cursive;
-}
-.footer-box{
-	padding-left: 40%;
 }
 .footer-h1{
  	font-family: 'Abril Fatface', cursive;
@@ -178,18 +148,69 @@ a{
  a:hover{
  	font-size: 15px;
  }
+ .grey-bg{
+ 	background-color: #E6E6E6;
+ 	padding: 30px 0;
+ }
+.box{
+	background-color: #F2F2F2;
+	margin-right: 15px;
+	width: 350px;
+	height: 350px;
+}
+.read{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+	text-transform: uppercase;
+	color: black;
+}
+.read:hover{
+	color: lightgreen;
+}
+.atletic{
+	text-align: center;
+	text-transform: uppercase;
+	color: lightgreen;
+}
+.better{
+	text-align: center;
+	font-size: 	55px;
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+}
 
 
 
+.section-3{
+	padding: 30px 100px;
+	background-color: black;
+	opacity: 0.9;
+}
 
 
 
-
-
-
-
-
-
+.coach-box{
+	width: 30%;
+	padding: 30px;
+}
+.coach-box-2{
+	width: 70%;
+}
+.coach-h2{
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 65px;
+	color: lightgreen;
+	text-align: center;
+}
+.img{
+	width: 250px;
+	border:1px solid lightgreen;
+}
+.wraper{
+	padding: 50px 20px;
+}
 
 
 
