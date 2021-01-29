@@ -1,10 +1,12 @@
 .logo{
 	width: 100px;
-	background-color: lightgreen;
 	border-radius: 15%;
-}  
+}
+.navbar{
+	background-attachment: fixed;
+}
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: lightgrey;
     font-size: 15px;
     font-family: 'Viaoda Libre', cursive;
     margin-left: 50px;
@@ -12,13 +14,19 @@
 }
 .navbar-light .navbar-nav .nav-link:hover{
 	font-size: 35px;
-	color: lightgreen;
+	color: white;
 }
 .h1{
 	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 80px;
-	color: #fff;
+}
+.book-now{
+	text-align: center;
+	color: white;
+}
+.book-now:hover{
+	color: #dc3545;
 }
 .bg{
 	background-image: url(https://1v1d1e1lmiki1lgcvx32p49h8fe-wpengine.netdna-ssl.com/wp-content/uploads/2014/01/fitness_man_gym_muscle_120438061.jpg);
@@ -26,6 +34,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	height: 60%;
 }
 .background{
 	background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/running.jpg);
@@ -35,7 +44,7 @@
 	background-attachment: fixed;
 }
 .p{
-	color: lightgreen;
+	color: white;
 	text-transform: uppercase;
 	font-size: 30px;
 	font-family: 'Viaoda Libre', cursive;
@@ -78,16 +87,15 @@
 	font-size: 40px;
 }
 .begginer-p{
-	display: flex;
-	justify-content: center;
-	background-color: lightgreen;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 25px;
+	padding-top: 30px;
+	font-size: 45px;
 }
-.book-now{
-	background-color: lightgreen;
+.begginer-p:hover{
+	font-size: 30px;
 }
+
 .icon{
 	margin-right: 25px;
 	background-color: lightgreen;
@@ -108,7 +116,11 @@
 }
 .btn{
 	border: none;
-	background-color: lightgreen;
+	background-color: #dc3545;
+}
+.btn-success:hover{
+	background-color: lightgrey; 
+	border:none;
 }
 .uppercase{
 	text-transform: uppercase;
@@ -126,91 +138,86 @@
 .wraper{
 	display: flex;
 }
-.coach-box{
-	width: 350px;
-	height: 500px;	
-}
 
-.coach-h2{
-	text-transform: uppercase;
-	font-family: 'Abril Fatface', cursive;
-	font-size: 45px;
-	color: lightgreen;
+.section-4{
+	padding: 50px 0;
 }
-.img{
-	width: 250px;
-	height: 250px;
-	border:1px solid lightgreen;
-}
-
 .grey-bg{
- 	background-color: #E6E6E6;
+ 	background-color: lightgrey;
  	padding: 30px 0;
  }
 .better-title{
 	font-size: 55px;
 	text-align: center;
-	color: lightgreen;
 	font-family: 'Abril Fatface', cursive;
+	color: white;
 }
 .better-p{
 	text-align: center;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 .better-box{
 	text-align: center;
 	border-radius: 25px;
-	border:1px solid lightgreen;
+	margin-right: 3%;
+	width: 30%;
+	border:1px solid #dc3545;
 }
 .better-img{
-	background-color: lightgreen;
 	margin-top: 5px;
+	width: 100px;
 }
 .better-h2{
-	color: lightgreen;
+	color: white;
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
 .read-more{
-	color:lightgreen;
-	font-size: 20px;
+	color:#dc3545;
 }
 .read-more:hover{
 	font-size: 15px;
 }
 .section-5{
 	padding:30px 0;
+
 }
 .choose-title{
 	font-size: 40px;
-	color: lightgreen;
+	color: white;
 	text-align: center;
 }
 .choose-p{
 	text-align: center;
-	color: #fff;
+	color: black;
 	font-family: 'Viaoda Libre', cursive;
 }
 .choose-p:hover{
 	font-size: 25px;
-	color: lightgreen;
+	color: #dc3545;
 }
 .choose-paragraph{
 	text-align: center;
 }
 .one{
-	padding-top: 125px;
-	color: lightgreen;
+	padding-top: 100px;
+	color: #dc3545;
 	font-size: 30px;
 }
 .choose-box{
 	text-align: center;
 	margin-top: 5px;
 	height: 200px;
+	border:2px solid black;
+	border-radius: 15px;
 }
 .choose-button{
 	text-align: center;
 	margin-top: 50px;
+	color: white;
+}
+.choose-button:hover{
+	color: #dc3545;
 }
 .success-bg{
  	background-image: url(https://wallpaperaccess.com/full/1078022.jpg);
@@ -237,9 +244,6 @@
 .section-7{
 	padding: 15px 0;
 }
-
-
-
 a{
   color: white;
   text-decoration: none;
@@ -251,36 +255,55 @@ a{
 
 
 
-.footer-h5{
-	font-family: 'Abril Fatface', cursive;
+
+.section-7{
+	background-color: lightgrey;
 }
-.footer-p{
-	font-family: 'Viaoda Libre', cursive;
+.footer-box{
+	text-align: center;
+
+}
+
+.footer-icon{
+	margin-right: 15px;
 }
 
 
 
 
-.meet-bg{
-	background-image: url(https://i.pinimg.com/originals/09/c5/07/09c507f048daffd2ee5a957dbbad0bca.jpg);
+.bg-trx{
+	background-image: url(https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/gallery/32519/low-row-43122676__resized.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 }
-
-
-
-
-.bg-color{
-	width: 350px;
-	height: 250px;
-	border: 2px solid lightgreen;
-	margin-right: 5px;
+.posture-corection{
+	background-image: url(https://images-na.ssl-images-amazon.com/images/I/61zDlef9CAL._AC_SY450_.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
-.col-s{
-	padding-left: 20px;
+.muscle-tone{
+	background-image: url(https://lh3.googleusercontent.com/proxy/FvVuqln6w4LJk8Mpk2gYRN_LJMkjJKxWOrYGLzpUqcuhy_BYWw2Eh60VjtFrh4sNH0WbUT22FvKA-rRgdLdhuBYSbr6DrZMfWg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
-.size{
-	width: 350px;
+.weight-loss{
+	background-image: url(https://workouttrends.com/wp-content/uploads/2015/03/yaconweightloss.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.cardio-fitness{
+	background-image: url(https://blogunisalute.it/wp-content/uploads/2019/05/cardio-workout.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.core-strenght{
+	background-image: url(https://doctorlib.info/anatomy/core-training-anatomy/core-training-anatomy.files/image073.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
