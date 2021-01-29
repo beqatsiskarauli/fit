@@ -125,16 +125,12 @@
 }
 .wraper{
 	display: flex;
-	justify-content: center;
-	padding-top: 50px;
 }
 .coach-box{
-	width: 30%;
-	padding: 30px;
+	width: 350px;
+	height: 500px;	
 }
-.coach-box2{
-	margin-top: 100px;
-}
+
 .coach-h2{
 	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
@@ -265,3 +261,26 @@ a{
 
 
 
+.meet-bg{
+	background-image: url(https://i.pinimg.com/originals/09/c5/07/09c507f048daffd2ee5a957dbbad0bca.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+
+
+.bg-color{
+	width: 350px;
+	height: 250px;
+	border: 2px solid lightgreen;
+	margin-right: 5px;
+}
+.col-s{
+	padding-left: 20px;
+}
+.size{
+	width: 350px;
+}
