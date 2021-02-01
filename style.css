@@ -2,11 +2,8 @@
 	width: 100px;
 	border-radius: 15%;
 }
-.navbar{
-	background-attachment: fixed;
-}
 .navbar-light .navbar-nav .nav-link {
-    color: lightgrey;
+    color: white;
     font-size: 15px;
     font-family: 'Viaoda Libre', cursive;
     margin-left: 50px;
@@ -14,7 +11,10 @@
 }
 .navbar-light .navbar-nav .nav-link:hover{
 	font-size: 35px;
-	color: white;
+	color: #dc3545;
+}
+.logo:hover{
+	opacity: 0.9;
 }
 .h1{
 	text-transform: uppercase;
@@ -24,12 +24,13 @@
 .book-now{
 	text-align: center;
 	color: white;
+	font-family: 'Viaoda Libre', cursive;
 }
 .book-now:hover{
 	color: #dc3545;
 }
 .bg{
-	background-image: url(https://1v1d1e1lmiki1lgcvx32p49h8fe-wpengine.netdna-ssl.com/wp-content/uploads/2014/01/fitness_man_gym_muscle_120438061.jpg);
+	background-image: url(https://vistapointe.net/images/fitness-7.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -46,7 +47,7 @@
 .p{
 	color: white;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Viaoda Libre', cursive;
 }
 .h1{
@@ -70,15 +71,17 @@
 	background-repeat: no-repeat;
 	background-position: top;
 	opacity: 0.9;
+	font-family: 'Viaoda Libre', cursive;
 }
 .begginer{
 	width: 50%;
 	height: 500px;
-	background: url(https://skinnyms.com/wp-content/uploads/2015/11/Top-3-Essential-Beginner-Workouts.jpg);
+	background: url(https://media.self.com/photos/5877a9da6a0f40db3873b1ce/master/w_870,h_580,c_limit/14-hiit.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	opacity: 0.9;
+	font-family: 'Viaoda Libre', cursive;
 }
 .begginer:hover{
 	font-size: 40px;
@@ -90,15 +93,16 @@
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 30px;
-	font-size: 45px;
+	font-size: 25px;
+	color: white;
 }
 .begginer-p:hover{
 	font-size: 30px;
+	color: #dc3545;
 }
 
 .icon{
 	margin-right: 25px;
-	background-color: lightgreen;
 	border-radius: 25%;
 }
 .social{
@@ -108,7 +112,7 @@
 	padding-bottom: 100px;
 }
 .radius{
-	border-radius: 25%;
+	border-radius: 7%;
 }
 .navbar-toggler{
 	background-color: lightgreen;
@@ -120,6 +124,7 @@
 }
 .btn-success:hover{
 	background-color: lightgrey; 
+	opacity: 0.9;
 	border:none;
 }
 .uppercase{
@@ -147,36 +152,40 @@
  	padding: 30px 0;
  }
 .better-title{
-	font-size: 55px;
-	text-align: center;
-	font-family: 'Abril Fatface', cursive;
 	color: white;
+	padding: 20px 0;
+	font-family: 'Abril Fatface', cursive;
+	border-bottom: 2px solid white;
 }
-.better-p{
+.text-align{
 	text-align: center;
-	margin-bottom: 30px;
 }
 .better-box{
 	text-align: center;
 	border-radius: 25px;
 	margin-right: 3%;
 	width: 30%;
-	border:1px solid #dc3545;
 }
 .better-img{
 	margin-top: 5px;
 	width: 100px;
 }
+.better-p{
+	margin: 30px 0;
+}
 .better-h2{
 	color: white;
 	margin-top: 5px;
 	margin-bottom: 15px;
+	font-family: 'Viaoda Libre', cursive;
+	font-size: 25px;
 }
 .read-more{
-	color:#dc3545;
+	color: lightgrey;
 }
 .read-more:hover{
-	font-size: 15px;
+	font-size: 10px;
+	color: white;
 }
 .section-5{
 	padding:30px 0;
@@ -184,8 +193,10 @@
 }
 .choose-title{
 	font-size: 40px;
-	color: white;
 	text-align: center;
+	padding-bottom: 30px;
+	font-family: 'Abril Fatface', cursive;
+	border-bottom: 2px solid white;
 }
 .choose-p{
 	text-align: center;
@@ -198,6 +209,9 @@
 }
 .choose-paragraph{
 	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid white;
 }
 .one{
 	padding-top: 100px;
@@ -213,8 +227,10 @@
 }
 .choose-button{
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 	color: white;
+	font-family: 'Viaoda Libre', cursive;
 }
 .choose-button:hover{
 	color: #dc3545;
@@ -261,12 +277,8 @@ a{
 }
 .footer-box{
 	text-align: center;
-
 }
 
-.footer-icon{
-	margin-right: 15px;
-}
 
 
 
@@ -306,4 +318,32 @@ a{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+.contact-me{
+	font-family: 'Abril Fatface', cursive;
+}
+.better-p{
+	color: white;
+}
+
+
+
+
+.about-h3{
+	font-size: 5rem;
+	color: #dc3545;
+	font-family: 'Abril Fatface', cursive;
+}
+.about-box{
+	margin: 35px;
+}
+.founder{
+	font-size: 1.5rem;
+	font-family: 'Abril Fatface', cursive;
+}
+.b-tsiskarauli{
+	font-family: 'Viaoda Libre', cursive;
+}
+.about-section{
+	padding: 35px 0;
 }
