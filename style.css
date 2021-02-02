@@ -6,7 +6,7 @@
     color: white;
     font-size: 15px;
     font-family: 'Viaoda Libre', cursive;
-    margin-left: 50px;
+    margin-left: 30px;
     text-transform: uppercase;
 }
 .navbar-light .navbar-nav .nav-link:hover{
@@ -296,7 +296,7 @@ a{
 	background-position: center;
 }
 .muscle-tone{
-	background-image: url(https://lh3.googleusercontent.com/proxy/FvVuqln6w4LJk8Mpk2gYRN_LJMkjJKxWOrYGLzpUqcuhy_BYWw2Eh60VjtFrh4sNH0WbUT22FvKA-rRgdLdhuBYSbr6DrZMfWg);
+	background-image: url(https://www.bhmpics.com/download/muscle_toning_fitness-1920x1080.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -346,4 +346,30 @@ a{
 }
 .about-section{
 	padding: 35px 0;
+}
+
+.person-box{
+	width: 30%;
+	margin-right: 3%;
+	padding: 15px;
+	border:1px solid lightgrey;
+}
+.name{
+	padding: 10px 0;
+}
+.person-section{
+	padding: 40px 0;
+	border-top: 2px solid lightgrey;
+}
+.person-h3{
+	margin-left: 15%;
+	color: yellow;
+}
+.person-p{
+	margin-left: 15%;
+	color: white;
+}
+.person-h4{
+	padding-bottom: 15px;
+	font-family: 'Viaoda Libre', cursive;
 }
