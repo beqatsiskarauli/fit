@@ -373,3 +373,73 @@ a{
 	padding-bottom: 15px;
 	font-family: 'Viaoda Libre', cursive;
 }
+.price-title{
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+.online-h4{
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50px;
+}
+.plans{
+	font-family: 'Viaoda Libre', cursive;
+	font-size: 30px;
+	color: #bfc0c3;
+}
+.online-img{
+	text-align: center;
+	width: 200px;
+	max-width: 200px;
+	margin-bottom: 30px;
+}
+.price-box{
+	max-width: 50%;
+	text-align: center;
+	padding: 10%;
+	margin: 10% 0;
+}
+.standart{
+	font-size: 25px;
+	font-family: 'Abril Fatface', cursive;
+	text-transform: uppercase;
+}
+.price-img{
+	width: 50px;
+	background-color: #dc3545;
+}
+.price-li{
+	margin-bottom: 20px;
+}
+.price{
+	font-size: 60px;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+}
+.price-section{
+	padding-bottom: 75px;
+	border-bottom:2px solid yellow;
+}
+.online-paragraph{
+	color: black;
+}
+
+.online-p{
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 30px;
+}
+.click-here{
+	text-align: center;
+	height: 30px;
+}
+.number{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.size{
+	height: 70px;
+	width: 250px;
+}
+.grey{
+	background-color: #bfc0c3;
+}
