@@ -276,7 +276,7 @@ a{
 	background-color: lightgrey;
 }
 .footer-box{
-	text-align: center;
+	text-align: start;
 }
 
 
@@ -349,8 +349,7 @@ a{
 }
 
 .person-box{
-	width: 30%;
-	margin-right: 3%;
+	margin-right: 15px;
 	padding: 15px;
 	border:1px solid lightgrey;
 }
@@ -404,20 +403,24 @@ a{
 	font-family: 'Abril Fatface', cursive;
 	text-transform: uppercase;
 }
-.price-img{
+.standart-img{
 	width: 50px;
 	background-color: #dc3545;
 }
 .price-li{
 	margin-bottom: 20px;
 }
-.price{
+.standart-price{
 	font-size: 60px;
 	border-top: 1px solid red;
 	border-bottom: 1px solid red;
 }
-.price-section{
+.section-standart{
 	padding-bottom: 75px;
+	border-bottom:2px solid yellow;
+}
+.section-complete{
+	height: 230px;
 	border-bottom:2px solid yellow;
 }
 .online-paragraph{
@@ -427,6 +430,7 @@ a{
 .online-p{
 	border-bottom: 1px solid lightgrey;
 	padding-bottom: 30px;
+	color: #b9ce35;
 }
 .click-here{
 	text-align: center;
@@ -438,8 +442,51 @@ a{
 }
 .size{
 	height: 70px;
-	width: 250px;
+	width: 450px;
+	border-radius: 43%;
 }
 .grey{
 	background-color: #bfc0c3;
+}
+.complete{
+	color: #b9ce35;
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+}
+.complete-img{
+	background-color: #b9ce35;
+	width: 50px;
+}
+.complete-price{
+	color: #b9ce35;
+	font-size: 60px;
+	border-top: 1px solid #b9ce35;
+	border-bottom: 1px solid #b9ce35;
+}
+.bg-green{
+	background-color: #b9ce35;
+}
+.bg-blue{
+	background-color: #0dcaf0;
+}
+.premium-img{
+	width: 50px;
+}
+.premium-price{
+	color: #0dcaf0;
+	font-size: 60px;
+	border-top: 1px solid #0dcaf0;
+	border-bottom: 1px solid #0dcaf0;
+}
+.more-info{
+	text-align: center;
+	margin-top: 50px;
+	padding: 10px;
+}
+.more-info-title{
+	font-family: 'Abril Fatface', cursive;
+}
+.more-info-p{
+	font-family: 'Viaoda Libre', cursive;
+	padding-top: 15px;
 }
