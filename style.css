@@ -146,6 +146,7 @@
 
 .section-4{
 	padding: 50px 0;
+	background-color: #00000040;
 }
 .grey-bg{
  	background-color: lightgrey;
@@ -162,9 +163,9 @@
 }
 .better-box{
 	text-align: center;
-	border-radius: 25px;
-	margin-right: 3%;
-	width: 30%;
+	border-radius: 50%;
+	background-color: #00000040;
+	height: 400px;
 }
 .better-img{
 	margin-top: 5px;
@@ -172,6 +173,7 @@
 }
 .better-p{
 	margin: 30px 0;
+	background-color: #ecb3b9;
 }
 .better-h2{
 	color: white;
@@ -189,14 +191,14 @@
 }
 .section-5{
 	padding:30px 0;
-
+	background-color: white;
+	opacity: 0.9;
 }
 .choose-title{
 	font-size: 40px;
 	text-align: center;
-	padding-bottom: 30px;
 	font-family: 'Abril Fatface', cursive;
-	border-bottom: 2px solid white;
+	border-bottom:1px solid #19bfd0;
 }
 .choose-p{
 	text-align: center;
@@ -208,10 +210,10 @@
 	color: #dc3545;
 }
 .choose-paragraph{
+	color: black;
+	margin-bottom: 40px;
+	margin-top: 40px;
 	text-align: center;
-	margin-top: 30px;
-	padding-bottom: 30px;
-	border-bottom: 2px solid white;
 }
 .one{
 	padding-top: 100px;
@@ -357,7 +359,8 @@ a{
 	padding: 10px 0;
 }
 .person-section{
-	padding: 40px 0;
+	padding: 100px 0;
+	padding-bottom: 40px;
 	border-top: 2px solid lightgrey;
 }
 .person-h3{
@@ -489,4 +492,32 @@ a{
 .more-info-p{
 	font-family: 'Viaoda Libre', cursive;
 	padding-top: 15px;
+}
+
+.services-img{
+	width: 150px;
+	max-width: 150px;
+}
+.services-box{
+	text-align: center;
+}
+.services-title{
+	font-family: 'Viaoda Libre', cursive;
+	font-size: 20px;
+	color: #19bfd0;
+	padding: 15px;
+}
+.services-p{
+	color: #69696b;
+}
+
+
+
+
+
+.section2-p{
+	padding: 15px;
+}
+.racxa{
+	text-align: center;
 }
