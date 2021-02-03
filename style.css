@@ -76,7 +76,7 @@
 .begginer{
 	width: 50%;
 	height: 500px;
-	background: url(https://media.self.com/photos/5877a9da6a0f40db3873b1ce/master/w_870,h_580,c_limit/14-hiit.jpg);
+	background: url();
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -330,7 +330,9 @@ a{
 
 
 
-
+.carousel-item{
+	width: 600px;
+}
 .about-h3{
 	font-size: 5rem;
 	color: #dc3545;
@@ -349,7 +351,6 @@ a{
 .about-section{
 	padding: 35px 0;
 }
-
 .person-box{
 	margin-right: 15px;
 	padding: 15px;
