@@ -63,24 +63,22 @@
 	text-align: center;
 	margin-left: 25px;
 }
-.professional{
+.group-training{
 	width: 50%;
-	height: 500px;
-	background: url(https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Zml0bmVzc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+	
+	background: url(https://fitnesseducation.asia/wp-content/uploads/sites/2/2020/01/Group-Training.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
-	opacity: 0.9;
 	font-family: 'Viaoda Libre', cursive;
 }
-.begginer{
+.personal-training{
 	width: 50%;
-	height: 500px;
-	background: url();
+
+	background: url(https://www.basic-fit.com/on/demandware.static/-/Library-Sites-basic-fit-shared-library/default/dwf0cbd84f/Roots/Blog/Blog-Header/1088x612/19-07-Blog-fitness-training-personal-training.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	opacity: 0.9;
 	font-family: 'Viaoda Libre', cursive;
 }
 .begginer:hover{
@@ -90,14 +88,14 @@
 	font-size: 40px;
 }
 .begginer-p{
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
-	padding-top: 30px;
+	margin-top: 350px;
+	margin-left: 30px;
 	font-size: 25px;
 	color: white;
 }
 .begginer-p:hover{
-	font-size: 30px;
 	color: #dc3545;
 }
 
@@ -110,9 +108,6 @@
 	justify-content: center;
 	padding-top: 250px;
 	padding-bottom: 100px;
-}
-.radius{
-	border-radius: 7%;
 }
 .navbar-toggler{
 	background-color: lightgreen;
@@ -135,6 +130,9 @@
 	font-family: 'Abril Fatface', cursive;
 	text-transform: uppercase;
 }
+.section-2{
+	padding-bottom: 60px;
+}
 .section-3{
 	padding: 30px;
 	background-color: black;
@@ -144,54 +142,53 @@
 	display: flex;
 }
 
-.section-4{
-	padding: 50px 0;
-	background-color: #00000040;
-}
+
 .grey-bg{
  	background-color: lightgrey;
  	padding: 30px 0;
  }
 .better-title{
 	color: white;
-	padding: 20px 0;
+	padding: 40px 0;
 	font-family: 'Abril Fatface', cursive;
-	border-bottom: 2px solid white;
 }
 .text-align{
 	text-align: center;
 }
+.better-bg{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
 .better-box{
 	text-align: center;
 	border-radius: 50%;
-	background-color: #00000040;
+	background-color: #f3f8ff;
 	height: 400px;
+	padding-top: 80px;
 }
 .better-img{
 	margin-top: 5px;
 	width: 100px;
 }
-.better-p{
-	margin: 30px 0;
-	background-color: #ecb3b9;
-}
 .better-h2{
-	color: white;
 	margin-top: 5px;
 	margin-bottom: 15px;
 	font-family: 'Viaoda Libre', cursive;
 	font-size: 25px;
 }
 .read-more{
-	color: lightgrey;
+	color: #dc3545;
+	margin-top: 15px;
 }
 .read-more:hover{
 	font-size: 10px;
-	color: white;
+	color: red;
+}
+.section-4{
+	padding-top: 30px 0;
 }
 .section-5{
-	padding:30px 0;
-	background-color: white;
+	background-color: #f3f8ff;
 	opacity: 0.9;
 }
 .choose-title{
@@ -199,6 +196,8 @@
 	text-align: center;
 	font-family: 'Abril Fatface', cursive;
 	border-bottom:1px solid #19bfd0;
+	padding: 30px 0;
+	color: #0dcaf0;
 }
 .choose-p{
 	text-align: center;
@@ -211,9 +210,8 @@
 }
 .choose-paragraph{
 	color: black;
-	margin-bottom: 40px;
-	margin-top: 40px;
-	text-align: center;
+	padding-bottom: 100px;
+	width: 100%;
 }
 .one{
 	padding-top: 100px;
@@ -229,7 +227,7 @@
 }
 .choose-button{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	color: white;
 	font-family: 'Viaoda Libre', cursive;
@@ -285,42 +283,7 @@ a{
 
 
 
-.bg-trx{
-	background-image: url(https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/gallery/32519/low-row-43122676__resized.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.posture-corection{
-	background-image: url(https://images-na.ssl-images-amazon.com/images/I/61zDlef9CAL._AC_SY450_.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.muscle-tone{
-	background-image: url(https://www.bhmpics.com/download/muscle_toning_fitness-1920x1080.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.weight-loss{
-	background-image: url(https://workouttrends.com/wp-content/uploads/2015/03/yaconweightloss.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.cardio-fitness{
-	background-image: url(https://blogunisalute.it/wp-content/uploads/2019/05/cardio-workout.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.core-strenght{
-	background-image: url(https://doctorlib.info/anatomy/core-training-anatomy/core-training-anatomy.files/image073.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
+
 .contact-me{
 	font-family: 'Abril Fatface', cursive;
 }
@@ -332,6 +295,7 @@ a{
 
 .carousel-item{
 	width: 600px;
+	height: 350px;
 }
 .about-h3{
 	font-size: 5rem;
@@ -360,9 +324,10 @@ a{
 	padding: 10px 0;
 }
 .person-section{
-	padding: 100px 0;
+	padding: 30px 0;
 	padding-bottom: 40px;
-	border-top: 2px solid lightgrey;
+	
+	background-color: #f3f8ff;
 }
 .person-h3{
 	margin-left: 15%;
@@ -501,24 +466,31 @@ a{
 }
 .services-box{
 	text-align: center;
+	background-color: white;
+	margin: 30px 0;
+	padding: 20px;
+	margin: 1%;
+	width: 48%;
 }
 .services-title{
 	font-family: 'Viaoda Libre', cursive;
 	font-size: 20px;
 	color: #19bfd0;
 	padding: 15px;
+	border-bottom:3px solid #19bfd0;
 }
 .services-p{
 	color: #69696b;
 }
-
-
-
-
-
-.section2-p{
-	padding: 15px;
+.services-pad{
+	padding: 30px 0;
 }
-.racxa{
-	text-align: center;
+.radius{
+	border-radius: 15%;
 }
+
+.margin-top{
+	margin-top: 50px;
+}
+
+
