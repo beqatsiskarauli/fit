@@ -29,6 +29,14 @@
 .book-now:hover{
 	color: #dc3545;
 }
+.schedule-now{
+	text-align: center;
+	color: white;
+	font-family: 'Viaoda Libre', cursive;
+}
+.schedule-now:hover{
+	color: #0dcaf0;
+}
 .bg{
 	background-image: url(https://vistapointe.net/images/fitness-7.jpg);
 	background-size: cover;
@@ -458,6 +466,7 @@ a{
 .more-info-p{
 	font-family: 'Viaoda Libre', cursive;
 	padding-top: 15px;
+	font-size: 25px;
 }
 
 .services-img{
