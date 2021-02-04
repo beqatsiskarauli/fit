@@ -2,6 +2,10 @@
 	width: 100px;
 	border-radius: 15%;
 }
+.footer-logo{
+	width: 50px;
+	height: 50px;
+}
 .navbar-light .navbar-nav .nav-link {
     color: white;
     font-size: 15px;
@@ -167,8 +171,8 @@
 	padding-top: 80px;
 }
 .better-img{
-	margin-top: 5px;
 	width: 100px;
+	margin-bottom: 15px;
 }
 .better-h2{
 	margin-top: 5px;
@@ -259,25 +263,19 @@
 }
 .section-7{
 	padding: 15px 0;
+	padding-left: 30px;
 }
 a{
   color: white;
   text-decoration: none;
  }
- a:hover{
- 	font-size: 15px;
- }
 
 
 
 
 
-.section-7{
-	background-color: lightgrey;
-}
-.footer-box{
-	text-align: start;
-}
+
+
 
 
 
@@ -495,24 +493,36 @@ a{
 }
 
 
-.footer-box{
-	margin-bottom: 25px;
-	text-transform: uppercase;
-	margin-right: 35px;
-}
 
+.footer-p{
+	font-family: 'Viaoda Libre', cursive;
+}
+.footer-p:hover{
+	color: lightblue;
+}
+.email:hover{
+	color: lightblue;
+}
 .footer-button{
 	background-color: transparent;
-	border:3px solid red;
+	border:3px solid lightblue;
 	border-radius: 50%;
-	color: red;
+	color: lightblue;
+	font-family: 'Abril Fatface', cursive;
+	margin-bottom: 30px;
 }
 .footer-button:hover{
 	color: #19bfd0;
 	border:2px solid #19bfd0;
 }
+.footer-title{
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+}
 .by-me{
 	font-size: 30px;
-	margin-top: 25px;
-	color: #19bfd0;
+	font-family: 'Abril Fatface', cursive;
+}
+.middle{
+	margin-top: 40px;
 }
