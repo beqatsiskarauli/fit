@@ -263,7 +263,6 @@
 	padding: 15px 0;
 	padding-left: 30px;
 	background-color: lightblue;
-	margin-top: 25px;
 }
 a{
   color: white;
@@ -326,8 +325,7 @@ a{
 .person-section{
 	padding: 30px 0;
 	padding-bottom: 40px;
-	
-	background-color: #bfc0c3;
+	background-color: white;
 }
 .person-h3{
 	margin-left: 15%;
@@ -573,10 +571,6 @@ a{
 	justify-content: flex-start;
 	align-items: center;
 }
-.contactform{
-	padding: 40px;
-	margin-left: 25px;
-}
 .fa{
 	margin-right: 25px;
 	border-radius: 50%;
@@ -621,13 +615,7 @@ a{
 	background-color: #bfc0c3;
 }
 
-.schedule-now{
-	margin-top: 20px;
-	margin-bottom: 30px;
-}
-.schedule-now:hover{
-	color: red;
-}
+
 
 .contact-devider{
 	height: 230px;
