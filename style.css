@@ -197,16 +197,15 @@
 	padding-top: 30px 0;
 }
 .section-5{
-	background-color: #f3f8ff;
-	opacity: 0.9;
+	background-color: #bfc0c3;
+	padding-top: 150px;
+	border-top: 2px solid yellow;
 }
 .choose-title{
 	font-size: 40px;
+	font-family: 'Viaoda Libre', cursive;
+	color: white;
 	text-align: center;
-	font-family: 'Abril Fatface', cursive;
-	border-bottom:1px solid #19bfd0;
-	padding: 30px 0;
-	color: #0dcaf0;
 }
 .choose-p{
 	text-align: center;
@@ -219,21 +218,15 @@
 }
 .choose-paragraph{
 	color: black;
-	padding-bottom: 100px;
-	width: 100%;
+	text-align: center;
+	color: white;
 }
 .one{
 	padding-top: 100px;
 	color: #dc3545;
 	font-size: 30px;
 }
-.choose-box{
-	text-align: center;
-	margin-top: 5px;
-	height: 200px;
-	border:2px solid black;
-	border-radius: 15px;
-}
+
 .choose-button{
 	text-align: center;
 	margin-top: 10px;
@@ -270,6 +263,7 @@
 	padding: 15px 0;
 	padding-left: 30px;
 	background-color: lightblue;
+	margin-top: 25px;
 }
 a{
   color: white;
@@ -317,7 +311,9 @@ a{
 	font-family: 'Viaoda Libre', cursive;
 }
 .about-section{
-	padding: 35px 0;
+	padding-top: 150px;
+	background-color: #bfc0c3;
+	border-top: 1px solid yellow;
 }
 .person-box{
 	margin-right: 15px;
@@ -331,7 +327,7 @@ a{
 	padding: 30px 0;
 	padding-bottom: 40px;
 	
-	background-color: #f3f8ff;
+	background-color: #bfc0c3;
 }
 .person-h3{
 	margin-left: 15%;
@@ -364,6 +360,7 @@ a{
 	width: 200px;
 	max-width: 200px;
 	margin-bottom: 30px;
+	border-radius: 15px;
 }
 .price-box{
 	max-width: 50%;
@@ -484,9 +481,7 @@ a{
 	padding: 15px;
 	border-bottom:3px solid #19bfd0;
 }
-.services-p{
-	color: #69696b;
-}
+
 .services-pad{
 	padding: 30px 0;
 }
@@ -541,18 +536,21 @@ a{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 200px 30px;
+  padding: 100px;
+}
+.contact-h3{
+	padding: 25px;
+	font-size:50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
 }
 .contact .content{
   max-width: 800px;
   text-align: center;
+  padding-top: 150px;
 }
-.contact .content h3{
-  font-size: 35px;
-  font-weight: 500;
-  color: black;
-  text-transform: uppercase;
-}
+
 .contact .content p{
   font-weight: 300;
   color: black;
@@ -568,13 +566,17 @@ a{
 	width: 25%;
 	justify-content: center;
 	align-items: center;
+	padding: 30px;
 }
 .contact-container .contactinfo .contact-box{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
-
+.contactform{
+	padding: 40px;
+	margin-left: 25px;
+}
 .fa{
 	margin-right: 25px;
 	border-radius: 50%;
@@ -584,6 +586,51 @@ a{
 	justify-content: center;
 	align-items: center;
 }
-.fa-map-marker{
-	color: yellow;
+.font{
+	font-family: 'Viaoda Libre', cursive;
+}
+.service-h{
+	background-color: white;
+	padding-bottom: 80px;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	padding-top: 50px;
+}
+
+
+
+.mg-top{
+	margin-top: 30px;
+}
+.bg-white{
+	height: 270px;
+	background-color: white;
+}
+.services{
+	font-family: 'Abril Fatface', cursive;
+	text-transform: uppercase;
+	padding: 50px 0;
+	font-size: 50px;
+}
+
+.offer:hover{
+	color: red;
+}
+
+.contact-bg{
+	background-color: #bfc0c3;
+}
+
+.schedule-now{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.schedule-now:hover{
+	color: red;
+}
+
+.contact-devider{
+	height: 230px;
+	padding-top: 25px;
+	border-bottom:2px solid yellow;
 }
