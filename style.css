@@ -86,12 +86,6 @@
 	background-position: center;
 	font-family: 'Viaoda Libre', cursive;
 }
-.begginer:hover{
-	font-size: 40px;
-}
-.professional:hover{
-	font-size: 40px;
-}
 .begginer-p{
 	text-align: left;
 	text-transform: uppercase;
@@ -101,7 +95,7 @@
 	color: white;
 }
 .begginer-p:hover{
-	color: #dc3545;
+	color: #0dcaf0;
 }
 
 .icon{
@@ -207,6 +201,9 @@
 	color: white;
 	text-align: center;
 }
+.choose-title:hover{
+	color: #0dcaf0;
+}
 .choose-p{
 	text-align: center;
 	color: black;
@@ -235,7 +232,7 @@
 	font-family: 'Viaoda Libre', cursive;
 }
 .choose-button:hover{
-	color: #dc3545;
+	color: #0dcaf0;
 }
 .success-bg{
  	background-image: url(https://wallpaperaccess.com/full/1078022.jpg);
@@ -258,6 +255,9 @@
 }
 .success-box{
 	width: 50%;
+}
+.section-6{
+	background-image: url();
 }
 .section-7{
 	padding: 15px 0;
@@ -608,7 +608,7 @@ a{
 }
 
 .offer:hover{
-	color: red;
+	color: #0dcaf0;
 }
 
 .contact-bg{
@@ -621,4 +621,14 @@ a{
 	height: 230px;
 	padding-top: 25px;
 	border-bottom:2px solid yellow;
+}
+
+.section10{
+	background-color: #bfc0c3;
+	border-top: 1px solid yellow;
+}
+.your-workout{
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
